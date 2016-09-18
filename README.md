@@ -1,6 +1,6 @@
 # Homework list
 - [Excercise_01:Create a GitHub account and set up a repository]()
-- [Excercise_02:Unknown](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework2.py)
+- [Excercise_02:Write a program to show your name with characters on the screen](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework2.py)
 - [Excercise_03:Unknown]()
 - [Excercise_04:Unknown]()
 - [Excercise_05:Unknown]()

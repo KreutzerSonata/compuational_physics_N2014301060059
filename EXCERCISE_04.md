@@ -3,7 +3,7 @@
 ##Abstract
 
 In this task, Euler method is used for solving the equaions set of a decay problem with two types of nuclei. Python gives the schema 
-from which we can see the deviation from the accuracy result. 
+from which we can see the deviation from the accurate result. 
 
 ##Background
 
@@ -59,7 +59,7 @@ a more accuracy result could be attained by reducing the time step constant.
 
 ##Acknowledge and Reference
 
-参考了课本第一章和蔡老师的讲义，程序部分以吴帆帆同学的为蓝本，并借鉴江俊，罗佳佳同学进行修正。
+参考了课本第一章和蔡老师的讲义，程序部分以吴帆帆同学的为蓝本，并参照江俊、罗佳佳同学进行修正。
 
 
 

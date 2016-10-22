@@ -57,7 +57,7 @@ inaccurracy they agree with each other quite well.
 The system of two types of nuclei reaches a steady state in which NA=NB=constant. The approximation of Euler method is acceptable, 
 a more accuracy result could be attained by reducing the time step constant.
 
-##Acknowledge and Reference
+##Acknowledgment and Reference
 
 参考了课本第一章和蔡老师的讲义，程序部分以吴帆帆同学的为蓝本，并参照江俊、罗佳佳同学进行修正。
 

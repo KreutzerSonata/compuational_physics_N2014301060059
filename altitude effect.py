@@ -1,11 +1,7 @@
 import pylab as pl
 import math
 class flying_cannon:
-    """
-    Calculation of the trajectory of the cannon
-    Home work of the second chapter done by He Yijun
-    Question 2.7
-    """
+
     def __init__(self,angle = 3.14/4 , velocity = 700,location_x = 0, location_y = 0, time_step = 0.001 , B_over_m = 0.00004, B_over_m_const = 0.00004):
         # unit of time is s ; unit of angle is rad
         self.v_x = [velocity * math.cos(angle)]
@@ -70,8 +66,8 @@ class flying_cannon:
         self.xno.append(amend_xno)
         self.yno.append(0)
     def show_results(self):
-        pl.plot(self.x, self.y, 'g', label='The trajectory of the cannon using Boltzmann distribution')
-        pl.plot(self.xno, self.yno, 'b', label='The trajectory of the cannon using adiajectory model')
+        pl.plot(self.x, self.y, 'g', label='The trajectory of the cannon using isothermal model')
+        pl.plot(self.xno, self.yno, 'b', label='The trajectory of the cannon using adiabatic model')
         pl.xlim(0.0, 30000.0)
         pl.ylim(0.0, 10000.0)
         pl.xlabel('x ($m$)')

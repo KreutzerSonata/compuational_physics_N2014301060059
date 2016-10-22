@@ -1,11 +1,7 @@
 import pylab as pl
 import math
 class flying_cannon:
-    """
-    Calculation of the trajectory of the cannon
-    Home work of the second chapter done by He Yijun
-    Question 2.7
-    """
+   
     def __init__(self,angle = 3.14/4 , velocity = 700,location_x = 0, location_y = 0, time_step = 0.01 , B_over_m =0.00001,B_over_m_no =0):
         # unit of time is s ; unit of angle is rad
         self.v_x = [velocity * math.cos(angle)]

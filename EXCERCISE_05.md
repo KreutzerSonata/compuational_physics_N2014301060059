@@ -71,9 +71,18 @@ time step -> 0.01
 [code is here](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/altitude%20effect.py)  
 ![alt](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/altitude%20effect.png)  
 
-Furthermore we take varying temperature into consideration, which shift B by a factor ![f](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/factor.jpg) , in this case we take α = 2.5  
+Furthermore we take varying temperature into consideration, which shift B by a factor ![f](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/factor.jpg) , in this case we take α = 2.5, with the same initual values we have result as follows  
 
 [code is here](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/varying%20temperature.py)  
+![vary](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/varying%20temperature.png)  
+
+##Conclusion  
+
+Air resistance makes a substantial effect for a cannon shell's trajectory. The result of the two models for altitude differ from each other a bit, and the isothermal model gives a better value in both range and height. However, the adiabatic model may be closer to realistic situation for we know temperature varies as altitude changes. Also it varies with seasons, it seems that in winter a cannon shell should have a better flight.  
+
+##Acknowledgement and Reference  
+
+参考了贺一珺同学和上官俊怡学长的程序。我再想想怎么能把公式的字体缩小一点，现在这样太不美观了╮(╯ _ ╰)╭
 
 
 

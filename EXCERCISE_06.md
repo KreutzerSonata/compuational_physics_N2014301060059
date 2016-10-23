@@ -31,6 +31,22 @@ by degree, a dichotomic method help lot, the syntax is as follows
 ![]()
         
 A futher simplification is to reduce the scanning range to 25°~60° since we expect the maximum shooting range would appear within.  
-[here is the code]()
+[here is the code](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/attacking.py)  
+Set initial values as -10m/s for wind velocity, 200m/s for cannon shell's initial velocity, (1000,100) for target's position, 
+and the running result is  
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/result.png)  
+
+So the best shooting parameter is 106.22806549072266m/s for initial velocity and 47° for shooting angle.  
+
+##Conclusion  
+
+This program gives a simulation for the operation principle of auxiliary attacking system, a more precise model need consider
+the errors produced by the launching system, so the effective landing position is an area rather than a point. However this is 
+beyond my capacity...  
+
+##Acknowledgment and Reference  
+
+参考了周璟怡同学的程序，[陈洋遥学长的文章](https://www.zybuluo.com/cyy652415049/note/333582#辅助精确打击系统)带来不小启发。
+
 
 

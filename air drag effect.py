@@ -69,12 +69,7 @@ class flying_cannon:
         pl.ylabel('y ($m$)')
         pl.legend(loc='best', shadow=True)
         pl.show()
-    def store_results(self):
-        myfile = open('flying_cannon', 'w')
-        for i in range(len(self.t)):
-            print(self.t[i],(self.x[i],self.y[i]), file = myfile)
-        myfile.close()
-
+   
 a = flying_cannon()
 a.calculate()
 a.calculate2()

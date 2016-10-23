@@ -4,7 +4,7 @@
 - [Excercise_03:A running and rotating name](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXERCISE_03.md)
 - [Excercise_04:Homework1.5:Decay Simulation](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERCISE_04.md)
 - [Excercise_05: Homewor2.7:Canon Shell Trajectory](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERCISE_05.md)
-- [Excercise_06:Unknown]()
+- [Excercise_06: Homework2.10:Auxiliary Attacking System](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERCISE_06.md)
 - [Excercise_07:Unknown]()
 - [Excercise_08:Unknown]()
 - [Excercise_09:Unknown]()

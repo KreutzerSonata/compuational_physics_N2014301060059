@@ -1,5 +1,5 @@
 #Chaos in the Driven Nonlinear Pendulum  
-Homework 3.12, 3.13
+Homework 3.13
 
 ##Abstract  
 
@@ -38,6 +38,7 @@ Now consider a physical pendulum's behaviors under different driving force, with
 results are displayed.  
 q = 0.5  
 l = 9.8  
+Ω = 2/3  
 g = 9.8  
 theta0 = 0.2  
 omega0 = 0    
@@ -50,8 +51,21 @@ To gain a deeper understanding of this strange feature, give two identical pendu
 difference between initial angles, namely 0.001rad, for a non-chaotic situation (F=0.5), we have the result  
 ![d](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/c6f45ea7be45329af8b17593eaae0326a42eea27/pendulum2.png)  
 [code is here](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/pendulums.py)  
-The difference between angles vanished exponentially as time goes, which agrees with our inituition that small error would be erased by time and result converges to a determined value. However for chaotic situation(F=1.2) the result reverse  
+The difference between angles vanished as time goes, which agrees with our inituition that small error would be erased by time and result converges to a determined value. However for chaotic situation(F=1.2) the result reverse  
 ![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/d620f9ef2dfcb2a8b84da67f1501325333e3130b/pendulum2%20(1).png)    
 [code is here](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/pendulums2.py)  
-The error increases exponentially as time goes, the two pendulums can't cath each other any longer. So slight difference leads to tremendous divergence, this is the sensibility of chaotic system.  
+The error increases as time goes, the two pendulums can't cath each other any longer. So slight difference leads to tremendous divergence, this is the sensibility of chaotic system.  
+
+Notice that the vertical axis has a logarithmic scale, though the trendecy of the curve seems to be linear with time, actually it changes exponentially, ![](http://latex.codecogs.com/gif.latex?%5CDelta%20%5Ctheta%20%5Capprox%20e%5E%7B%5Clambda%20t%7D) this is called Lyapnov exponent. From the first schema we can estimate λ≈-0.158, it's a negative constant for non-chaotic system. As for the second schema, the value of λ is not so easy to tell, but it's clearly a positive constant.  
+
+##Conclusion  
+
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/4b631e83ta46b5278f2b3%26690.jpg)  
+The chaotic phenomena means more than astonihing, it remedies our cognition to the world. Physicists In past expressed their cognition to the world by a allegory of a supernatural creature *The Demon of Laplace* , who measures the position and velocity of every single object at a very moment, then he can calculate how everything runs in the past and in the future through classic mechanic method, so the world is determined. This sound reasonabele but a bit odd, now we know the reason. Practicall The demon has to record the information of every object in a finite form, it can't be infinite precise. And once there is a slight inaccuracy in the initial values, chaos plays a significant role, and the demon's calculation deviates more and more from the actual motion as time goes. In this way we say the world is *determined* but *unpredictable*.  
+
+##Acknowledgment and Reference  
+
+程序参考了吴雨桥学长，部分内容参考教材和Wiki词条[Laplace's demon](https://en.wikipedia.org/wiki/Laplace%27s_demon)
+
+
 

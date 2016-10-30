@@ -1,5 +1,5 @@
 #Chaos in the Driven Nonlinear Pendulum  
-Homework 3.12, 3.13, 3.14  
+Homework 3.12, 3.13
 
 ##Abstract  
 
@@ -30,4 +30,28 @@ For a physical pendulum, just replace -(g/l)θ term by -(g/l)sinθ ,and Euler-Cr
 - **Poincare section** 
 
 In the phase-space graph, plot ω versus v only at times that are in phase with the driving force. That is, only the points with Ωt=2nπ are displayed where n is an integer.
-Ihis is known as Poincare section. And it is a very useful way to plot and analyze the behavior of a dynamical system.
+Ihis is known as Poincare section. And it is a very useful way to plot and analyze the behavior of a dynamical system.  
+
+#Mainbody  
+
+Now consider a physical pendulum's behaviors under different driving force, with the following constants and initial values, 
+results are displayed.  
+q = 0.5  
+l = 9.8  
+g = 9.8  
+theta0 = 0.2  
+omega0 = 0    
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/pendulum.png)  
+[code is here](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/commit/aca90706f5b189b99c51cee0b95f579b0c17be52)  
+When no driving force is applied, the pendulum comes to rest after a few oscillations. With a small driving force F=0.5
+the pendulum yields to the external frequency after an initial transient, which also happens in a simple harmonic motion. However, once the force is increased to 1.2, the pendulum starts to lose control, period vanished, the motion seems to be irregular and unpredictable, this is a chaotic phenomenon.  
+
+To gain a deeper understanding of this strange feature, give two identical pendulums the same initial values but a slightly
+difference between initial angles, namely 0.001rad, for a non-chaotic situation (F=0.5), we have the result  
+![d](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/c6f45ea7be45329af8b17593eaae0326a42eea27/pendulum2.png)  
+[code is here](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/pendulums.py)  
+The difference between angles vanished exponentially as time goes, which agrees with our inituition that small error would be erased by time and result converges to a determined value. However for chaotic situation(F=1.2) the result reverse  
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/d620f9ef2dfcb2a8b84da67f1501325333e3130b/pendulum2%20(1).png)    
+[code is here](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/pendulums2.py)  
+The error increases exponentially as time goes, the two pendulums can't cath each other any longer. So slight difference leads to tremendous divergence, this is the sensibility of chaotic system.  
+

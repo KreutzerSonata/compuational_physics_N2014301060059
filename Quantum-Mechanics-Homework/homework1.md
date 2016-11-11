@@ -1,2 +1,6 @@
 ![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/3-6-1.jpg)
 ![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/3-6-2.jpg)
+![](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/3-7-1.jpg?raw=true)
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/3-7-2.jpg)
+![](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/3-7-3.jpg?raw=true)
+![](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/3-8.jpg?raw=true)

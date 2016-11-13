@@ -6,7 +6,7 @@
 - [Excercise_05: Homewor2.7:Canon Shell Trajectory](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERCISE_05.md)
 - [Excercise_06: Homework2.10:Auxiliary Attacking System](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERCISE_06.md)
 - [Excercise_07:Homework3.13 : Chaos in a driven nonlinear pendulum](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERSICE_07.md)
-- [Excercise_08:Unknown]()
+- [Excercise_08:Homework3.20 :A Route to Chaos](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERCISE_08.md)
 - [Excercise_09:Unknown]()
 - [Excercise_10:Unknown]()
 - [Excercise_11:Unknown]()

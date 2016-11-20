@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import math
-class table:
+class tabel:
     
     def __init__(self,x_0=0.2,y_0=0,vx_0=-0.2,vy_0=-0.5,dt_1=0.001,total_time=100):
         self.x=[x_0]
@@ -11,7 +11,6 @@ class table:
         self.dt=dt_1
         self.time=total_time
         self.t=[0]
-
     def calculate(self):
         for i in range(int(self.time/self.dt)):
             self.x.append(self.x[i]+self.vx[i]*self.dt)
@@ -34,23 +33,20 @@ class table:
                     self.x[i]=X
                     self.y[i]=Y
                     continue
+       
+  def bound(self):
         x_1=[-1]
         y_1=[0]
         x_2=[-1]
         y_2=[0]
         dx=0.0001
-        
-    def bound(self):
         for k in range(20000):
             x_1.append(x_1[k]+dx)
             y_1.append((1-x_1[k+1]**2)**0.5)
             x_2.append(x_2[k]+dx)
             y_2.append(-(1-x_2[k+1]**2)**0.5)
-            
     def show_results(self):
         plt.plot(self.x,self.y,'--',label='trajectory')
-        plt.plot(x_1,y_1,'--',label='bound')
-        plt.plot(x_2,y_2,'--',label='bound')
         plt.xlabel(u'x')
         plt.ylabel(u'y')
         

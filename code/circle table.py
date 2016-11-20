@@ -34,7 +34,7 @@ class tabel:
                     self.y[i]=Y
                     continue
        
-  def bound(self):
+   def bound(self):
         x_1=[-1]
         y_1=[0]
         x_2=[-1]

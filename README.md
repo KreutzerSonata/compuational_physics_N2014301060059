@@ -8,7 +8,7 @@
 - [Excercise_07:Homework3.13 : Chaos in a driven nonlinear pendulum](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERSICE_07.md)
 - [Excercise_08:Homework3.20 :A Route to Chaos](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERCISE_08.md)
 - [Excercise_09:Homework3.31 ：The Billiard Problem](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_09.md)
-- [Excercise_10:Unknown]()
+- [Excercise_10:Homework4.9 : Planetary Orbits](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_10.md)
 - [Excercise_11:Unknown]()
 - [Excercise_12:Unknown]()
 - [Excercise_13:Unknown]()

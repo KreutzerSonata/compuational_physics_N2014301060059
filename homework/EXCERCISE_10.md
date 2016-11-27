@@ -1,0 +1,21 @@
+#Planetary Orbits  
+
+Homework 4.9  
+
+##Abstract  
+
+This task provides with a simulation of planetary orbits under the effort of gravity. As a conclusion, the inverse-square law is the
+only form of gravitational force which maintains a planet in a stable orbit, otherwise the orbit rotates with elapsing, and the period
+it remains stable is dependent on the ellipticity of the orbit with the same gravitational force form.  
+
+##Background  
+
+Since planetary motion is a typical oscillatory problem, we use Euler-Cromer method instead of Euler method to do the simulation just
+as we did with pendulum. The rule for planetary motion is described through Newton's second law with two second-order ODEs which treat
+the motion as a two-dimension problem. As usual the equations should be reduced to four first-order ones, thus converted into difference
+form as follows  
+![](https://camo.githubusercontent.com/6360ae0cac0fcbf444e703ccff428d7ef9d136bf/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f765f253742782532436926706c75733b31253744253344765f25374278253243692537442d2535436672616325374234253230253543706925354532253230785f25374269253744253744253742725f253742692537442535453325374425354344656c746125323074)  
+![](https://camo.githubusercontent.com/dac3d82d16ff87987208b467a1e6b469ff851508/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f785f2537426926706c75733b31253744253344785f2537426925374426706c75733b765f253742782532436926706c75733b3125374425354344656c746125323074)  
+![](https://camo.githubusercontent.com/7e76f28ed493a30f7dca85e122cf261e7f6bef26/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f765f253742792532436926706c75733b31253744253344765f25374279253243692537442d2535436672616325374234253230253543706925354532253230795f25374269253744253744253742725f253742692537442535453325374425354344656c746125323074)  
+![](https://camo.githubusercontent.com/7d4009a6c03ead8447142456ab9549d41cd6e540/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f795f2537426926706c75733b31253744253344795f2537426925374426706c75733b765f253742792532436926706c75733b3125374425354344656c746125323074)  
+

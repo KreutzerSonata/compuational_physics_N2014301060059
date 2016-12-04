@@ -9,7 +9,7 @@
 - [Excercise_08:Homework3.20 :A Route to Chaos](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/EXCERCISE_08.md)
 - [Excercise_09:Homework3.31 ：The Billiard Problem](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_09.md)
 - [Excercise_10:Homework4.9 : Planetary Orbits](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_10.md)
-- [Excercise_11:Unknown]()
+- [Excercise_11: Homework4.16,17 : Effect of Jupiter](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_11.md)
 - [Excercise_12:Unknown]()
 - [Excercise_13:Unknown]()
 - [Excercise_14:Unknown]()

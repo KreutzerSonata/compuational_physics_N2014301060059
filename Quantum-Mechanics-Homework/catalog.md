@@ -1,4 +1,5 @@
 [第一次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework1.md)  
 [第二次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework2.md)  
 [第三次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework3.md)  
-[第四次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework4.md)
+[第四次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework4.md)  
+[第五次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework5.md)

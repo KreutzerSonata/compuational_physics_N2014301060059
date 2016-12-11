@@ -10,7 +10,7 @@
 - [Excercise_09:Homework3.31 ：The Billiard Problem](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_09.md)
 - [Excercise_10:Homework4.9 : Planetary Orbits](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_10.md)
 - [Excercise_11: Homework4.16,17 : Effect of Jupiter](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_11.md)
-- [Excercise_12:Unknown]()
+- [Excercise_12:Homework 5.4＆5.7 : Potentials and Fields](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_12.md)
 - [Excercise_13:Unknown]()
 - [Excercise_14:Unknown]()
 - [Final Project:Unknown]()

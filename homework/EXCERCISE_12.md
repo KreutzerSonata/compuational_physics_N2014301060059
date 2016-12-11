@@ -29,7 +29,33 @@ points, which implies the final equilibrium of the system. This allow us to rand
 equation to do the iterations until specific accuracy is met.   
 
 There are three different methods to do the iterations, Jacob method:  
-![]()  
+![](http://latex.codecogs.com/gif.latex?V_%7Bnew%7D%3D%5Cfrac%7B1%7D%7B4%7D%5BV_%7Bold%7D%28i&plus;1%2Cj%29&plus;V_%7Bold%7D%28i-1%2Cj%29&plus;V_%7Bold%7D%28i%2Cj&plus;1%29&plus;V_%7Bold%7D%28i%2Cj-1%29%5D)   
 Gauss-Seidel method:  
 ![](https://camo.githubusercontent.com/fbe33d9cdfa2b7ad2383671bfa33bf09d93156a6/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f565f2537426e6577253744253238692532436a253239253230253344253543667261632537423125374425374234253744253542565f2537426f6c642537442532386926706c75733b312532436a25323926706c75733b565f2537426e6577253744253238692d312532436a25323926706c75733b565f2537426f6c64253744253238692532436a26706c75733b3125323926706c75733b565f2537426e6577253744253238692532436a2d31253239253544)  
-and the SOR(*simu
+and the SOR(*Simultaneous Over-Relaxation*) method
+![](https://camo.githubusercontent.com/2e701de04b352f385b4d166f2f861c94a7d29183/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f25354344656c746125323056253238692532436a2532392535436571756976253230562535452a253238692532436a2532392d565f2537426f6c64253744253238692532436a253239),
+![](https://camo.githubusercontent.com/d76281e5e920aa312f53ee7d6b42afc08c00bbef/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f565f2537426e6577253744253238692532436a253239253344253543616c70686125354344656c746125323056253238692532436a25323926706c75733b565f2537426f6c64253744253238692532436a253239)  
+where the factor α measures how much we “over-relax”. For a problem on a two-dimensional square grid, the best choice for is 
+![](https://camo.githubusercontent.com/309b3ebef53833a38b96a23ac6081726198e278b/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f253543616c706861253543617070726f7825323025354366726163253742322537442537423126706c75733b25354370692f4c253744)  
+
+For a fixed accuracy, the three methods produce the same result, the difference exists in their efficiency. We will see the SOR
+method use the least number of iterations, we use it to solve the parallel plate capacitor problem.  
+![](https://raw.githubusercontent.com/JunyiShangguan/computationalphysics_N2013301020076/master/ex13/1.png)  
+Left plate held at V=1 and right plate V=-1, boundary held at V=0. The inner distrition of potential contours looks like  
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/diagrams/potential1.png)  
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/diagrams/potential1%203D.png)  
+Separate the plates for a longer distance and the potential field changes as  
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/diagrams/potential2.png)  
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/diagrams/potential2%203D.png)  
+Extend the length of plates and see the changes as  
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/diagrams/potential3.png)  
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/diagrams/potential3%203D.png)  
+[code is here](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/SOR.py)  
+We can see the fringing effect.  
+
+Next we compare the dependence of the number of iterations on the number of gird element for a fixed accuracy. For Gauss-Seidel method, it changes as a sqaure dependence, while SOR method produces a simple linear dependence. Since the number of iterations reflects the speed of convergence, we say SOR is a more effective method.  
+![](https://raw.githubusercontent.com/KreutzerSonata/compuational_physics_N2014301060059/master/diagrams/iteration.png)  
+[code is here](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/iterations.py)  
+
+##Acknowledgment and Reference  
+参考吴雨桥的程序

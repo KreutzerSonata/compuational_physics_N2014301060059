@@ -48,7 +48,7 @@ With a time-dependent signal
 Which could be transformed as  
 ![](http://p1.bpimg.com/567571/7758e8fb5f374a8d.png)  
 [code for propagation](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/plucking.py)  
-[code for power spectrum]()
+[code for power spectrum](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/spectrum.py)  
 From the comparison we see that, the main sound when plucking a guitar string comes with the fundemental frequency, this agrees with our daily experience,
 people are tending to regard the fundemental frequency of a string as its tone in music.  
 

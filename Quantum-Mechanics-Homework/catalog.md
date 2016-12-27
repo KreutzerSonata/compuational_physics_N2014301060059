@@ -5,3 +5,4 @@
 [第五次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework5.md)  
 [第六次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework6.md)  
 [第七次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework7.md)  
+[第八次作业](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/Quantum-Mechanics-Homework/homework8.md)

@@ -33,7 +33,7 @@ However, a large number of such walkers, say 5000 as a whole obeys a certain sta
 ![](http://i1.piimg.com/567571/50ad2863078ee80c.png)  
 Then we consider the average of the square of the displacement after n steps.  
 ![](http://i1.piimg.com/567571/5edcc121c6831f63.png)  
-It grows linearly with time, hence the distance for each walker's displacement grows as ![](http://latex.codecogs.com/gif.latex?%5Cleft%20%5Clangle%20x_%7Bn%7D%5E%7B2%7D%20%5Cright%20%5Crangle%3D%5Csum_%7Bi%3D1%7D%5E%7Bn%7Ds_%7Bi%7D%5E%7B2%7D%3Dn). Compared with a free walker whose displacement is described as x=vt, a random walker escapes more slowly.  
+It grows linearly with time, hence the distance for each walker's displacement grows as ![](http://latex.codecogs.com/gif.latex?%5Csqrt%7B%5Cleft%20%5Clangle%20x%5E%7B2%7D%20%5Cright%20%5Crangle%7D%5Csim%20t%5E%7B1/2%7D). Compared with a free walker whose displacement is described as x=vt, a random walker escapes more slowly.  
 
 To generalize the model and make it more realistic, one way is to allow the steps to be of random length. 
 

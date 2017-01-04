@@ -11,4 +11,29 @@ Generally we take the evolution of *any* system as determinitstic, which means i
 as Newton's laws) to describe the their motions. However, in previous chapters, we have seen that a good many of such systems are *unpredicable* because
 of the arising of chaos. In this task, we investigate another kind of systems ivolving randomness, they are actually both determinitstic
 and predicable, but the tremendous number of *degree of freedom* makes it infeasible and useless to calculate the results by solving
-each motion equation. Instead, a statistical method gives us a more concise and comprehensible 
+each motion equation. Instead, statistics gives us a more concise and comprehensible understanding of the system's behaviour.  
+
+The motion of a particle or molecule is analogous to a random walk,  where the walker's steps correspond to the motion of the particle between collisions, each collision changes the direction of the velocity of paricle, and this is modeled by letting the direction of each step in the walk be random. Consider one-dimmensional walks, writing the position after n steps as a sum of n separate steps gives  
+![](http://latex.codecogs.com/gif.latex?x_%7Bn%7D%3D%5Csum_%7Bi%3D1%7D%5E%7Bn%7Ds_%7Bi%7D)  
+where ![](http://latex.codecogs.com/gif.latex?s_%7Bi%7D%3D%5Cpm%201) with equal probabilities for simplicity. Then statistics suggests the average of the square of the displacement after n steps is given as  
+![](http://latex.codecogs.com/gif.latex?%5Cleft%20%5Clangle%20x_%7Bn%7D%5E%7B2%7D%20%5Cright%20%5Crangle%3D%5Csum_%7Bi%3D1%7D%5E%7Bn%7Ds_%7Bi%7D%5E%7B2%7D%3Dn)  
+If one step is taken in one time unit, this result implies the displacement of the walker grows as ![](http://latex.codecogs.com/gif.latex?%5Csqrt%7B%5Cleft%20%5Clangle%20x%5E%7B2%7D%20%5Cright%20%5Crangle%7D%5Csim%20t%5E%7B1/2%7D) , and this should be verified in the following simulation.  
+
+On the other hand, the diffusion equation has a similar form as waves equation  
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20%5Crho%20%7D%7B%5Cpartial%20t%7D%3DD%5Cbigtriangledown%20%5E%7B2%7D%5Crho)  
+with ρ representing the density of particles. A typical solution of this equation has a Gaussian form  
+![](http://latex.codecogs.com/gif.latex?%5Crho%20%28x%2Ct%29%3D%5Cfrac%7B1%7D%7B%5Csigma%20%7Dexp%5Cleft%20%5B%20-%5Cfrac%7Bx%5E%7B2%7D%7D%7B2%5Csigma%20%5E%7B2%7D%7D%20%5Cright%20%5D)  
+for one dimension, with ![](http://latex.codecogs.com/gif.latex?%5Csigma%20%3D%5Csqrt%7B2Dt%7D), which implies the width increases as ![](http://latex.codecogs.com/gif.latex?%5Csigma%5Csim%20t%5E%7B1/2%7D), the same with random walk. From this we can see the close connection between diffusion and random walk, and it will be clearer by simulative illustration.  
+
+##Mainbody  
+
+To perform the random walk in one dimension, we generate a random number in the range between 0 and 1 and compare its value to 1/2, if it's less than 1/2, our walker moves right, otherwise it moves left. Repeat this process n times. The following figure shows the results for two individual walkers, as we expect, their trajecototies are much different.  
+![](http://i1.piimg.com/567571/433637dff8137497.png)  
+However, a large number of such walkers, say 5000 as a whole obeys a certain statistical rule. We add up the displacement of every walker and take the average, as expected, it should be fluctuating around zero.  
+![](http://i1.piimg.com/567571/50ad2863078ee80c.png)  
+Then we consider the average of the square of the displacement after n steps.  
+![](http://i1.piimg.com/567571/5edcc121c6831f63.png)  
+It grows linearly with time, hence the distance for each walker's displacement grows as ![](http://latex.codecogs.com/gif.latex?%5Cleft%20%5Clangle%20x_%7Bn%7D%5E%7B2%7D%20%5Cright%20%5Crangle%3D%5Csum_%7Bi%3D1%7D%5E%7Bn%7Ds_%7Bi%7D%5E%7B2%7D%3Dn). Compared with a free walker whose displacement is described as x=vt, a random walker escapes more slowly.  
+
+To generalize the model and make it more realistic, one way is to allow the steps to be of random length. 
+

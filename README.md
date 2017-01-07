@@ -12,7 +12,7 @@
 - [Excercise_11: Homework4.16,17 : Effect of Jupiter](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_11.md)
 - [Excercise_12:Homework 5.4＆5.7 : Potentials and Fields](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_12.md)
 - [Excercise_13:Homework 6.12 : Waves on a String](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/EXCERCISE_13.md)
-- [Final Project:Random Walk and Diffusion](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/Final%20Project.md)  
+- [Final Project:Random Walks and Diffusion](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/homework/Final%20Project.md)  
 
 ##Epilogue  
 一晃就到期末了。这个学期的课程给我最大的感受就是，语言这种东西啊，无论是汉语、英语还是C、python，无论自然语言或是机器语言，作为一门课都是非常啃老本的东西，最终能学到什么水平很大程度上取决于基础打得怎么样，所以这学期下来不免有些手忙脚乱。以后得空了要继续学习，毕竟编程还是一个非常实用而有趣的本领。  

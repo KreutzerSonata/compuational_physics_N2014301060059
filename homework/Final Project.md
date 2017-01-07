@@ -45,8 +45,8 @@ To generalize the model and make it more realistic, one way is to allow the step
 ![](http://i1.piimg.com/567571/979d9ea04fda6986.png)  
 Obviously the slope is smaller than fixed step length case, though it also obeys the statistical rules.  
 [code for walking pattern](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/two%20random%20walkers.py)  
-[code for mean dispalcement](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/x%20average%20for%205000%20walkers.py)  
-[code for mean square of the displencement](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/x%20square%20average.py)  
+[code for mean displacement](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/x%20average%20for%205000%20walkers.py)  
+[code for mean square of the displacement](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/x%20square%20average.py)  
 
 ###Diffusion  
 Next we explore the properties of diffusion. With a similar treatment as we do in wave's case, chose the initial condition as a Gaussian profile, and the revolution for one dimension is  
@@ -70,7 +70,7 @@ The entropy increases and eventually levels off, it approaches a constant. This 
 
 ##Conclusion  
 
-From the previous simulations we see, the average displacement of large number of random walkers is zero, while the mean square of displacement is linearly dependented on time, and the latter leads to diffusive phenomennon. Random walk model is a good approximation of diffusive phenomennon, it's all based on simple statistical rules regardless of the dynamic rules the particles involves, thus reveals the profound mathematical nature of the physical problems. However, this also deviates the model from many real problems, for appreciable interactions do exist between particles in many cases, and the behaviour is much different. Such a system is a *complex system* rather than a random one, this field contains many interesting topics such as Earth's global climate, organisms, the human brain, social organization and so on, and it's still under spiritoso exploration.  
+From the previous simulations we see, the average displacement of large number of random walkers is zero, while the mean square of displacement is linearly dependented on time, and the latter leads to diffusive phenomenon. Random walk model is a good approximation of diffusive phenomenon, it's all based on simple statistical rules regardless of the dynamic rules the particles involves, thus reveals the profound mathematical nature of the physical problems. However, this also deviates the model from many real problems, for appreciable interactions do exist between particles in many cases, and the behaviour is much different. Such a system is a *complex system* rather than a random one, this field contains many interesting topics such as Earth's global climate, organisms, the human brain, social organization and so on, and it's still under spiritoso exploration.  
 
 ##Reference  
 

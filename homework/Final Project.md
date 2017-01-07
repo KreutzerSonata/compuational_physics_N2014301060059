@@ -44,9 +44,9 @@ It grows linearly with time, we write this as ![](http://latex.codecogs.com/gif.
 To generalize the model and make it more realistic, one way is to allow the steps to be of random length. To do this, each time we take a random number from -1~+1 as the length of step, then add them up and take the average. We'll find the walking pattern and the behaviour of the mean displacement is much like the previous one, yet the relation of mean square of the displencement versus time is different.  
 ![](http://i1.piimg.com/567571/979d9ea04fda6986.png)  
 Obviously the slope is smaller than fixed step length case, though it also obeys the statistical rules.  
-[code for walking pattern]()  
-[code for mean dispalcement]()  
-[code for mean square of the displencement]()  
+[code for walking pattern](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/two%20random%20walkers.py)  
+[code for mean dispalcement](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/x%20average%20for%205000%20walkers.py)  
+[code for mean square of the displencement](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/x%20square%20average.py)  
 
 ###Diffusion  
 Next we explore the properties of diffusion. With a similar treatment as we do in wave's case, chose the initial condition as a Gaussian profile, and the revolution for one dimension is  
@@ -56,17 +56,27 @@ The peak value decreases rapidly, while the width grows, and the total area rema
 Then we use the random walk model to simulate a two-dimensional diffusion, such as cream spreading in coffee. The initial condition is a cup of coffee containing a drop of cream in the centre. We assume each of the cream molecule executes a rondom walk on a two-dimensional square lattice, at each time step we choose a particle at random and let it take one step in its random walk. The distributions after t=0, 50, 200, 800 are showed as follows, as expected, the cream spreads with time in a manner that appears by eye to be diffusive. This result is equivalent to the solution of the two-dimensional diffusion equation.   
 ![](http://p1.bqimg.com/567571/ccda79286f2bcf1f.png)  
 
-[code for one-dim diffusion]()  
-[code for two-dim diffusion]()  
+[code for one-dim diffusion](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/diffusion%20in%20one%20dimension.py)  
+[code for two-dim diffusion](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/diffusion%20in%20two%20dimension.py)  
 
 ###Entropy  
 
-The cream-in-coffee problem is a nice example to introduce the concept of entropy. We divide the two-dimensional coffee cup into grid cells, each representing a distinct state in which a particle might be found. The previous simulation involves a large number of particles, we can use all of them, say 5000, in the computation of p.   
-![]()  
+The cream-in-coffee problem is a nice example to introduce the concept of entropy. We divide the two-dimensional coffee cup into grid cells, each representing a distinct state in which a particle might be found. The previous simulation involves a large number of particles, we can use all of them, say 5000, in the computation of entropy.   
+![](http://i1.piimg.com/567571/de9d5d36f636c59f.png)  
 
-The entropy increases and eventually levels off, it approaches a constant 
+The entropy increases and eventually levels off, it approaches a constant. This result is in agreement with the second thermodynamic law, saying that the entropy of a isolated system never decreases, and should increase for irreversible process like diffusion, until it eventually converges to a constant, which implies the system reaches equilibrium. 
 
+[code for entropy](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/entropy.py)  
 
+##Conclusion  
+
+From the previous simulations we see, the average displacement of large number of random walkers is zero, while the mean square of displacement is linearly dependented on time, and the latter leads to diffusive phenomennon. Random walk model is a good approximation of diffusive phenomennon, it's all based on simple statistical rules regardless of the dynamic rules the particles involves, thus reveals the profound mathematical nature of the physical problems. However, this also deviates the model from many real problems, for appreciable interactions do exist between particles in many cases, and the behaviour is much different. Such a system is a *complex system* rather than a random one, this field contains many interesting topics such as Earth's global climate, organisms, the human brain, social organization and so on, and it's still under spiritoso exploration.  
+
+##Reference  
+
+1.Computational Physics, Nicholas J. Giordano & Hisao Nakanishi  
+2.[Python图表绘制：matplotlib绘图库入门](http://blog.csdn.net/ywjun0919/article/details/8692018)  
+3.Wiki entry [Complex System](https://en.wikipedia.org/wiki/Complex_system)  
 
 
 

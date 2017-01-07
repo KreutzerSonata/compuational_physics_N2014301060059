@@ -22,11 +22,13 @@ where ![](http://latex.codecogs.com/gif.latex?s_%7Bi%7D%3D%5Cpm%201) with equal 
 ![](http://latex.codecogs.com/gif.latex?%5Cleft%20%5Clangle%20x_%7Bn%7D%5E%7B2%7D%20%5Cright%20%5Crangle%3D%5Csum_%7Bi%3D1%7D%5E%7Bn%7Ds_%7Bi%7D%5E%7B2%7D%3Dn)  
 If one step is taken in one time unit, this result implies the displacement of the walker grows as ![](http://latex.codecogs.com/gif.latex?%5Csqrt%7B%5Cleft%20%5Clangle%20x%5E%7B2%7D%20%5Cright%20%5Crangle%7D%5Csim%20t%5E%7B1/2%7D) , and this should be verified in the following simulation.  
 
+
 On the other hand, the diffusion equation has a similar form as waves equation  
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20%5Crho%20%7D%7B%5Cpartial%20t%7D%3DD%5Cbigtriangledown%20%5E%7B2%7D%5Crho)  
 with ρ representing the density of particles. A typical solution of this equation has a Gaussian form  
 ![](http://latex.codecogs.com/gif.latex?%5Crho%20%28x%2Ct%29%3D%5Cfrac%7B1%7D%7B%5Csigma%20%7Dexp%5Cleft%20%5B%20-%5Cfrac%7Bx%5E%7B2%7D%7D%7B2%5Csigma%20%5E%7B2%7D%7D%20%5Cright%20%5D)  
 for one dimension, with ![](http://latex.codecogs.com/gif.latex?%5Csigma%20%3D%5Csqrt%7B2Dt%7D), which implies the width increases as ![](http://latex.codecogs.com/gif.latex?%5Csigma%5Csim%20t%5E%7B1/2%7D), the same with random walk. From this we can see the close connection between diffusion and random walk, and it will be clearer by simulative illustration.  
+
 
 The definition of entropy ![](https://camo.githubusercontent.com/50db2c9d90480aea76403a5cf24bf2109dd01806/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f533d2d25354373756d2532305f25374269253744505f253742692537446c6e505f25374269253744) will be used in the last section, where pi is the probability of finding the system in state i, and the sum is over all possible states of the system.  
 
@@ -45,7 +47,7 @@ To generalize the model and make it more realistic, one way is to allow the step
 ![](http://i1.piimg.com/567571/979d9ea04fda6986.png)  
 Obviously the slope is smaller than fixed step length case, though it also obeys the statistical rules.  
 [code for walking pattern](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/two%20random%20walkers.py)  
-[code for mean displacement](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/x%20average%20for%205000%20walkers.py)  
+[code for mean displacement](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/x%20average%20for%205000%20walkers.py)  
 [code for mean square of the displacement](https://github.com/KreutzerSonata/compuational_physics_N2014301060059/blob/master/code/x%20square%20average.py)  
 
 ###Diffusion  
